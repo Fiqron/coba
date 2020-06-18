@@ -1,0 +1,26 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package pertemuan5;
+
+/**
+ *
+ * @author Fiqron Rizkiawarman
+ */
+public class MainAbstract {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        
+        // TODO code application logic here
+        MembuatKue mk = new MembuatKue();
+        mk.bahan_bahan();
+        mk.peralatan();;
+        mk.proses_pembuatan();
+    }
+    
+}
